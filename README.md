@@ -29,7 +29,7 @@ To host your own instance of this bot, you need to have a Telegram bot token, Te
 and a server to run the bot on. You can create a Telegram bot with [BotFather][botfather] and purchase
 a cheap VPS with the hoster of your choice.
 
-Meow
+
 
 ### Installation
 
