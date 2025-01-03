@@ -8,7 +8,7 @@ export const t = {
 	deniedMessage: [
 		bold("This bot is private."),
 		"",
-		"It costs money to run this and unfortunately it doesn't grow on trees.",
+		"AGILLI OL to run this and unfortunately it doesn't grow on trees.",
 		`This bot is open source, so you can always ${link("host it yourself", "https://github.com/vaaski/telegram-ytdl#hosting")}.`,
 		"",
 		bold(

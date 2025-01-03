@@ -2,8 +2,7 @@
 
 #### A simple & fast YouTube download Telegram bot.
 
-[![Telegram Bot](https://img.shields.io/badge/TELEGRAM-BOT-%2330A3E6?style=for-the-badge&logo=telegram)](https://t.me/vYTDL_bot)
-![GitHub top language](https://img.shields.io/github/languages/top/vaaski/telegram-ytdl?style=for-the-badge)
+[![Telegram Bot](https://img.shields.io/badge/TELEGRAM-BOT-%2330A3E6?style=for-the-badge&logo=telegram)](https://t.me/Downtify_Bot)
 
 ## Synopsis
 
@@ -30,7 +29,6 @@ To host your own instance of this bot, you need to have a Telegram bot token, Te
 and a server to run the bot on. You can create a Telegram bot with [BotFather][botfather] and purchase
 a cheap VPS with the hoster of your choice.
 
-I recommend [Hetzner][hetzner] and you can get 20€ in credits for free using my [referral link][hetzner].
 
 ### Installation
 
