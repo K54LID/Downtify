@@ -1,18 +1,18 @@
-
+version: "3.9"
 
 services:
   telegram-bot:
-    image: ghcr.io/k54lid/downtify:latest
+    image: ghcr.io/vaaski/telegram-ytdl:latest
     network_mode: host
     restart: unless-stopped
     volumes:
-      - ./k54lid-downtify:/app/storage
+      - ./vaaski-telegram-ytdl:/app/storage
     environment:
       # get your bot token from @BotFather
       TELEGRAM_BOT_TOKEN: "7307072659:AAEaD2TRGfxHTB70Yrk7Fqz1fAxeJfXK7Ss"
 
       # comma separated list of telegram user ids, leave empty to allow all users
-      WHITELISTED_IDS: ""
+      WHITELISTED_IDS: "123456789,987654321"
 
       # admin user id
       ADMIN_ID: "528269003"
@@ -34,8 +34,8 @@ services:
     restart: unless-stopped
     environment:
       # get these values from https://core.telegram.org/api/obtaining_api_id
-      TELEGRAM_API_ID: "1898255"
-      TELEGRAM_API_HASH: "4d2b63ef4b50c08bae36d136309159cc"
+      TELEGRAM_API_ID: ""
+      TELEGRAM_API_HASH: ""
     command:
       - --dir=/var/lib/telegram-bot-api
       #- --verbosity=2
