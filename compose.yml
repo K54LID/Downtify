@@ -9,7 +9,7 @@ services:
       - ./k54lid-Downtify:/app/storage
     environment:
       TELEGRAM_BOT_TOKEN: "7307072659:AAEaD2TRGfxHTB70Yrk7Fqz1fAxeJfXK7Ss"
-      WHITELISTED_IDS: "55"
+      WHITELISTED_IDS: ""
       ADMIN_ID: "528269003"
       TELEGRAM_API_ROOT: "http://127.0.0.1:8081"
       TELEGRAM_WEBHOOK_PORT: "8443"
