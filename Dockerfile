@@ -32,3 +32,17 @@ RUN chmod +x /bin/yt-dlp
 EXPOSE ${TELEGRAM_WEBHOOK_PORT}
 
 CMD ["npm", "start"]
+
+# Base image
+FROM downtify:latest
+
+# Existing setup
+# ...
+
+# Your application setup
+COPY . /app
+WORKDIR /app
+RUN dotnet build
+
+EXPOSE 80
+ENTRYPOINT ["dotnet", "downtify.dll"]
