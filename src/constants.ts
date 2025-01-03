@@ -21,7 +21,7 @@ export const t = {
 		),
 		"",
 		bold("Subscription Details"),
-		`Access to all features for just 60⭐️/month.  
+		`Access to all features for just 60⭐️ monthly.  
 Enjoy unlimited downloads and exclusive support!`,
 		"",
 		bold("How to Pay?"),
