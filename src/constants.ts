@@ -6,25 +6,25 @@ export const t = {
 		"Bot is currently under maintenance, it'll return shortly.",
 	processing: "Processing...",
 	deniedMessage: [
-		bold("This bot is private."),
+		bold("Introducing Downtify – Your Ultimate Video Downloader 📱✨"),
 		"",
-		"It costs money to run this and unfortunately it doesn't grow on trees.",
-		`This bot is open source, so you can always ${link("host it yourself", "https://github.com/vaaski/telegram-ytdl#hosting")}.`,
+		"Say goodbye to the hassle of downloading videos from YouTube, TikTok, and Instagram! With Downtify, you can easily and quickly download videos with just a link. It’s simple, fast, and convenient!",
+		link("Why Choose Downtify?", "https://t.me/downtify_bot"),
 		"",
 		bold(
-			`As an alternative I recommend checking out ${link(
-				"yt-dlp",
-				"https://github.com/yt-dlp/yt-dlp",
-			)}, the command line tool that powers this bot or ${link(
-				"cobalt",
-				"https://cobalt.tools",
-			)}, a web-based social media content downloader (not affiliated with this bot).`,
+			`✅ Fast and seamless video downloads
+			)} ✅ Supports YouTube, TikTok, and Instagram
+			)} ✅ Easy to use – just send the link!
+			)} ✅ Private and secure – only available to subscribers
+			)} ✅ All videos are downloaded watermark-free`
 		),
 		"",
-		`${bold(
-			"Do not",
-		)} try to contact me to get whitelisted, I will not accept anyone I don't know personally.`,
+		bold("Subscription Details"),
+		`Access to all features for just $1/month.
+		Enjoy unlimited downloads and exclusive support!`,
+		"Join thousands of satisfied users and experience the convenience yourself!"
 	].join("\n"),
+	
 }
 
 // https://github.com/yt-dlp/yt-dlp/issues/9506#issuecomment-2053987537
