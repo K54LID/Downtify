@@ -6,6 +6,8 @@
 
 ## Synopsis
 
+meow
+
 I was never satisfied with any YouTube downloader solution, because they either required chasing some website that was
 either bloated with ads, painfully slow, taken down the next day or all of those combined.
 Using [yt-dlp][yt-dlp] in the command line was my go-to,
